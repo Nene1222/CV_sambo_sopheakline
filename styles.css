@@ -1,0 +1,127 @@
+/* General Reset */
+body {
+    font-family: 'Arial', sans-serif; /* Set a clean, professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* CV Container */
+.cv-container {
+    display: flex;
+    max-width: 900px; /* Reduced from 1100px to 900px */
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Column */
+.left-column {
+    width: 35%;
+    background: #194b7b;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column .profile-picture {
+    width: 150px; 
+    height: 150px;
+    background: url('me.png') no-repeat center center; /* Replace with your image path */
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.left-column .section {
+    margin-bottom: 20px;
+}
+
+.left-column .section h2 {
+    font-size: 18px;
+    font-weight: bold; /* Make section titles stand out */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 5px;
+}
+
+.left-column .section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-column .section ul li {
+    margin: 5px 0;
+    font-size: 14px; /* Adjust font size for better readability */
+}
+
+/* Right Column */
+.right-column {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #102a43;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-column h2 {
+    font-size: 20px;
+    color: #334e68;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.right-column h2:nth-of-type(1) {
+    margin-top: -10px; /* Moves the element 10px higher */
+    border-bottom: none; /* Keeps the line removed under this specific h2 */
+    padding-bottom: 0;
+}
+
+.right-column .section {
+    margin-bottom: 20px;
+}
+
+.right-column .section h2 {
+    text-align: left; /* Aligns the headings to the left */
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #334e68;
+    border-bottom: 2px solid #102a43;
+    padding-bottom: 5px;
+}
+
+.right-column .section ul {
+    padding-left: 20px;
+}
+
+.right-column .section ul li {
+    margin-bottom: 5px;
+    list-style: disc;
+    font-size: 14px;
+}
+
+.right-column .section p {
+    color: #184f82; 
+}
+
+/* Global h2 Styling */
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid #102a43; /* Adds a line under h2 */
+    padding-bottom: 5px; /* Adds spacing between text and the line */
+    margin-bottom: 15px; /* Adjusts spacing below the h2 */
+}
+
+.right-column h1, 
+.right-column h2 {
+    text-align: center; /* Centers the text horizontally */
+}
